@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SizedBox(height: 30),
-            SizedBox(
+            Container(
               height: 160,
               child: ScreenTitle(text: 'Ninja Trips'),
             ),
